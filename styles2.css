@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #F4F4F9;
+  color: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #1E3A5F;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+#hero button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background: #2ECC71;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 1rem 0;
+}
+
+#services .service {
+  display: inline-block;
+  width: 22%;
+  margin: 1%;
+  vertical-align: top;
+}
+
+#services .service img {
+  width: 100%;
+  height: auto;
+}
+
+#gallery .gallery img {
+  width: 48%;
+  margin: 1%;
+}
+
+#contact form,
+#contact .qr-code {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 1%;
+}
+
+footer {
+  background: #1E3A5F;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer .quick-links a,
+footer .social-media a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+footer .contact-info p {
+  margin: 0.5rem 0;
+}
